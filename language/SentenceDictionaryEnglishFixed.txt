@@ -1,0 +1,38 @@
+﻿Dictionary for the most common sentences that are used in daily life
+Yes
+No
+Search
+Search in English content
+Match case (One word)
+Match case (Part of one word)
+Match case (Part of many word)
+Match case (Each word)
+Search Panel
+Search Language Panel
+Search in English
+البحث باللغة العربية
+Dictionary Search Panel
+لوحة الجمل (Sentence Panel)
+لوحة بيان الجمل الشائعة باللغة العربية
+استماع
+استمع إلى كيفية نطق الكلمة باللغة العربية
+Sentences Panel (in English)
+Listen
+Listen to the sentence pronunciation
+Control Panel
+Add
+Add new item to the sentence dictionary
+Edit
+Edit the displayed sentence
+Delete
+Delete this word from the dictionary
+Export
+Export Database
+Import
+Import Database
+Sections
+Select the sections to be searched
+Print
+Options for printing the dictionary into a book
+Display
+Display all senetences with the specified sections

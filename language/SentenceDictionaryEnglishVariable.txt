@@ -1,0 +1,11 @@
+﻿There is no word to be searched.
+Error
+Please select a sentence to be edited.
+---------- null -----------
+Warning!
+Please select a sentence to be deleted.
+Please select a sentence to be pronounced.
+There is no pronunciation sound file with this sentence.
+Are you sure you want to delete this sentence from the dictionary?
+Do you Want to delete the sound file for the arabic pronunciation ? [Dont delete it if it is used by many sentences].
+Do you Want to delete the sound file for the english pronunciation ? [Dont delete it if it is used by many sentences].

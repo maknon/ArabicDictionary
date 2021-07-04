@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="imageDictionary">
+    <output-path>$PROJECT_DIR$/out/imageDictionary</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/imageDictionary" />
+    </root>
+  </artifact>
+</component>

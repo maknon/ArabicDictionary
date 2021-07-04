@@ -1,0 +1,19 @@
+﻿Add word to the dictionary
+Yes
+No
+لوحة بيان شرح الكلمة المرادة باللغة العربية
+لوحة الكلمات العربية المصورة
+أضف الملف الصوتي لكيفية نطق الكلمة باللغة العربية
+Add the sound file for the word pronunciation
+Word Description Panel (in English)
+English Word Panel
+Image Panel
+Control Panel
+Browse
+Browse for an image (GIF, JPEG or PNG)
+Sections
+Determind the sections in which this word will be available
+OK
+Add this word to the dictionary
+Cancel
+Cancel operation

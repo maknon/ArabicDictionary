@@ -1,0 +1,47 @@
+﻿Yes
+No
+Search
+Search in English content
+Match case (One word)
+Match case (Part of one word)
+Match case (Part of many word)
+Match case (Each word)
+Options
+Setting
+English language
+اللغة العربية
+Search Language
+by title
+by content
+Search Type
+Dictionary Search Panel
+لوحة الكلمات (Word Panel)
+تحديد تلقائي للكلمة حسب الحروف (Auto Word Detector)
+لوحة بيان شرح الكلمة المرادة باللغة العربية
+استمع إلى كيفية نطق الكلمة باللغة العربية
+Word Discribtion Panel (in English)
+Listen to the word pronunciation
+Image Viewer Panel
+Control Panel
+Properties
+Properties of the system such as sound files location
+Add
+Add new item to the image dictionary
+Edit
+Edit the displayed word
+Delete
+Delete this word from the dictionary
+Export
+Export Database
+Import
+Import Database
+Sections
+Select the sections to be searched
+Sentences
+Sentence Dectionary for the common daily sentences
+Print
+Options for printing the dictionary into a book
+Write
+Learn how to write in arabic language
+Password
+Access the control tools

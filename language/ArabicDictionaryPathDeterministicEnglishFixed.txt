@@ -1,0 +1,11 @@
+﻿Image and Audio files Path Deterministic
+Notes
+Image and Audio files Path Deterministic Panel
+Browse image files location
+Browse the dictionary image files location
+Browse audio files location
+Browse the dictionary audio files location
+Auto Path Deterministic (the location within the program)
+Manual Path Deterministic
+OK
+Cancel

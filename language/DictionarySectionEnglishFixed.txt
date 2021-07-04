@@ -1,0 +1,6 @@
+﻿Yes
+Dictionary Sections
+Sections Panel according to fields
+Sections Panel according to ages
+Cancel
+Apply

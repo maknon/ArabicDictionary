@@ -1,0 +1,9 @@
+﻿------------------ null -------------------
+Error!
+------------------ null -------------------
+Please full the arabic sentence TextArea.
+Please full the english sentence TextArea.
+------------------ null -------------------
+Warning!
+Are you sure you don't need a sound file for the arabic sentence pronunciation ? if not, please specify the file.
+Are you sure you don't need a sound file for the english sentence pronunciation ? if not, please specify the file.

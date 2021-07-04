@@ -1,0 +1,7 @@
+﻿Yes
+Password Error, Please re-enter the password correctly.
+Password Error!
+Authentication System
+Password: 
+  OK  
+Cancel

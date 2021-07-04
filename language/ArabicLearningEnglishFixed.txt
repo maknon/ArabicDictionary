@@ -1,0 +1,14 @@
+﻿How to write in arabic?
+Yes
+Display
+Display all words from the database
+Colours
+Change the colour of the displayed words
+Fonts
+Change the font of the displayed words
+Words Panel
+Recommended Words Panel
+Arabic Letter Panel
+Control Panel
+Words Display Panel
+Drawing Panel
