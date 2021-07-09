@@ -6,5 +6,4 @@
 
 للمناقشة والدعم
 
-https://www.maknoon.com/community/threads/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%B5%D9%88%D8%B1.99/
-
+https://www.maknoon.com/community/threads/99/
