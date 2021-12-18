@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="org.apache.derby:derbytools:10.15.2.0" type="repository">
+  <library name="apache.derby.derbytools" type="repository">
     <properties maven-id="org.apache.derby:derbytools:10.15.2.0" />
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/derbytools-10.15.2.0.jar!/" />

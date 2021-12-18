@@ -1,4 +1,4 @@
 cd /D %~dp0
 cd classes
-java -cp .;../lib/* MaknoonIslamicEncyclopedia
+E:\Support\jdk-17\bin\java -cp .;../lib/* MaknoonIslamicEncyclopedia
 pause

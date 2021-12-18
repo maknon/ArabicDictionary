@@ -10,8 +10,8 @@ final public class CreateArabicDictionaryDatabase
 	{
 		try
 		{
-			Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-			Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+MaknoonIslamicEncyclopedia.fileSeparator+"arabicDictionaryDatabase;create=true","root","secret");
+			Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+			Connection con = DriverManager.getConnection("jdbc:derby:.."+MaknoonIslamicEncyclopedia.fileSeparator+"arabicDictionaryDatabase;create=true","root","secret");
 			Statement s = con.createStatement();
 			
 			s.execute("create table arabicDictionary(arabicWord VARCHAR(100),englishWord VARCHAR(100),arabicDescription LONG VARCHAR,englishDescription LONG VARCHAR,imageName VARCHAR(50),arabicSoundName VARCHAR(50),englishSoundName VARCHAR(50),category VARCHAR(500))");

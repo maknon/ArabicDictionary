@@ -391,8 +391,8 @@ final public class SentenceDictionary extends JDialog
 					
                     try
 					{
-						Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-						Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+						Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+						Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 						Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 						ResultSet rs = stmt.executeQuery("select * from arabicSentenceDictionary");
 						
@@ -455,8 +455,8 @@ final public class SentenceDictionary extends JDialog
                 	boolean gotSQLExc = false;
                 	try
 					{
-						Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-						Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+						Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+						Connection con = DriverManager.getConnection("jdbc:jdbc:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 						Statement stmt = con.createStatement();
 						stmt.execute("drop table arabicSentenceDictionary");
 						stmt.close();
@@ -864,8 +864,8 @@ final public class SentenceDictionary extends JDialog
 		
 		try
 		{
-			Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-			final Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+			Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+			final Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 			final Statement stmt = con.createStatement();
 			
 			// This do it only once at the begingin since it is fixed already unless you add or update some items

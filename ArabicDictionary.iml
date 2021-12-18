@@ -9,6 +9,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.apache.derby:derbytools:10.15.2.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="apache.derby" level="project" />
+    <orderEntry type="library" name="apache.derby.derbytools" level="project" />
   </component>
 </module>

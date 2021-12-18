@@ -85,8 +85,8 @@ final public class ArabicDictionary extends JPanel
 
 		try
 		{
-			Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-			final Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+			Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+			final Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 			final Statement stmt = con.createStatement();
 			final ResultSet rs = stmt.executeQuery("select sectionName from dictionarySection");
 
@@ -585,8 +585,8 @@ final public class ArabicDictionary extends JPanel
 					{
 						try
 						{
-							Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-							final Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+							Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+							final Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 							final Statement stmt = con.createStatement();
 							stmt.executeUpdate("delete from arabicDictionary WHERE arabicWord ='"+(String)arabicWordListVector.elementAt(selectionIndex)+"'");
 							stmt.close();
@@ -659,8 +659,8 @@ final public class ArabicDictionary extends JPanel
 
                     try
 					{
-						Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-						final Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+						Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+						final Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 						final Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 						final ResultSet rs = stmt.executeQuery("select * from arabicDictionary");
 
@@ -727,8 +727,8 @@ final public class ArabicDictionary extends JPanel
                 	boolean gotSQLExc = false;
                 	try
 					{
-						Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-						Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+						Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+						Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 						Statement stmt = con.createStatement();
 						stmt.execute("drop table arabicDictionary");
 						stmt.close();
@@ -1259,8 +1259,8 @@ final public class ArabicDictionary extends JPanel
 
 		try
 		{
-			Class.forName("com.ihost.cs.jdbc.CloudscapeDriver").newInstance();
-			final Connection con = DriverManager.getConnection("jdbc:cloudscape:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
+			Class.forName("org.apache.derby.jdbc.EmbeddedDriver").getDeclaredConstructor().newInstance();
+			final Connection con = DriverManager.getConnection("jdbc:derby:.."+fileSeparator+"arabicDictionaryDatabase", "root","secret");
 			final Statement stmt = con.createStatement();
 
 			// This do it only once at the begingin since it is fixed already unless you add or update some items
