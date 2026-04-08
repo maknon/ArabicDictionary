@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Dec 18 18:18:15 GST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017d-cde8-553c-00001ee88ad8 
+on database directory E:\ArabicDictionary\arabicDictionaryDatabase with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@7852e922 
+Loaded from file:/E:/ArabicDictionary/lib/derby-10.15.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17+35-LTS-2724
+user.dir=E:\ArabicDictionary\classes
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

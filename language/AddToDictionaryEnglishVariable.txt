@@ -1,0 +1,12 @@
+﻿Please full the arabic Word Text Field.
+Error!
+Please full the english Word Text Field.
+Please full the arabic Details TextArea.
+Please full the english Details TextArea.
+Are you sure you don't need an image for this translation? if not, please specify the file.
+Warning!
+Are you sure you don't need a sound file for the arabic word pronunciation ? if not, please specify the file.
+Are you sure you don't need a sound file for the english word pronunciation ? if not, please specify the file.
+The arabic word that you entered is repeated. Please enter another word.
+The english word that you entered is repeated. Please enter another word.
+One dimension is bigger than the limit which is (200 x 200).

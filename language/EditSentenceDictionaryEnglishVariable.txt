@@ -1,0 +1,11 @@
+﻿------------------ null -------------------
+Error!
+------------------ null -------------------
+Please full the arabic sentence TextArea.
+Please full the english sentence TextArea.
+------------------ null -------------------
+Warning!
+Are you sure you don't need a sound file for the arabic sentence pronunciation ? if not, please specify the file.
+Are you sure you don't need a sound file for the english sentence pronunciation ? if not, please specify the file.
+Do you Want to delete the previous sound file for arabic sentence pronunciation ? [Dont delete it if it was used by many senetences].
+Do you Want to delete the previous sound file for english sentence pronunciation ? [Dont delete it if it was used by many senetences].

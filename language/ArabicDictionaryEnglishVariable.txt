@@ -1,0 +1,15 @@
+﻿There is no word to be searched.
+Error
+Please select a word to be edited.
+Do you Want to delete the image also? [Dont delete it if is used by many words].
+Warning!
+Please select a word to be deleted.
+Please select a word to be pronounced.
+There is no pronunciation sound file with this word.
+Are you sure you want to delete this word from the dictionary?
+Do you Want to delete the sound file for the arabic pronunciation ? [Dont delete it if it is used by many words].
+Do you Want to delete the sound file for the english pronunciation ? [Dont delete it if it is used by many words].
+Exit
+Continue
+There is another instance of Maknoon Islamic Encyclopedia working now. Arabic Dictionary will not work now unless there is one instance of the system working at the same time.
+Warning!

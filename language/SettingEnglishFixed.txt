@@ -1,0 +1,8 @@
+﻿Setting
+Choose the language to be used in the program
+اللغة العربية
+English Language
+Make this language is the default language and don't ask me again at the start of the program
+Help
+Cancel
+Apply
